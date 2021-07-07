@@ -17,14 +17,14 @@ public class LoanEligibilityService {
         if (!(request.getAge() > 30 && request.getAge() <= 60)) {
             mismatchCriteriaList.add("Person age should in between 30 to 60");
         }
-        if (!(request.getYearlyIncome() > 200000)) {
+        if ((request.getYearlyIncome() <=  200000)) {
             mismatchCriteriaList.add("minimum income should be more than 200000");
         }
-        if (!(request.getCibilScore() > 500)) {
+        if ((request.getCibilScore() <= 500)) {
             mismatchCriteriaList.add("Low CIBIL Score please try after 6 month");
         }
 
-        if (mismatchCriteriaList.size() > 0) {
+        if (!mismatchCriteriaList.isEmpty()) {
             acknowledgement.setApprovedAmount(0);
             acknowledgement.setIsEligible(false);
         } else {
