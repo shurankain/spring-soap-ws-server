@@ -6,16 +6,16 @@ import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
 import org.springframework.ws.server.endpoint.annotation.RequestPayload;
 import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 
-import com.shurankain.spring.soap.ws.server.service.LoanEligibilityService;
 import com.shurankain.spring.soap.ws.server.loaneligibility.Acknowledgement;
 import com.shurankain.spring.soap.ws.server.loaneligibility.CustomerRequest;
+import com.shurankain.spring.soap.ws.server.service.LoanEligibilityService;
 
 @Endpoint
 public class LoanEligibilityIndicatorEndpoint {
 
-    private static final String NAMESPACE = "http://www.shurankain.com/soaptest/springsoaptest/loanEligibility";
+    private static final String NAMESPACE = "http://www.shurankain.com/spring/soap/ws/server/loaneligibility";
 
-    private LoanEligibilityService service;
+    private final LoanEligibilityService service;
 
     @Autowired
     public LoanEligibilityIndicatorEndpoint(LoanEligibilityService service) {
@@ -27,5 +27,4 @@ public class LoanEligibilityIndicatorEndpoint {
     public Acknowledgement getLoanStatus(@RequestPayload CustomerRequest request) {
         return service.checkLoanEligibility(request);
     }
-
 }

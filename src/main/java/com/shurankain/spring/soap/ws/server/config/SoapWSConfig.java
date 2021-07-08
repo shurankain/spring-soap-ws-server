@@ -28,10 +28,9 @@ public class SoapWSConfig {
         DefaultWsdl11Definition defaultWsdl11Definition = new DefaultWsdl11Definition();
         defaultWsdl11Definition.setPortTypeName("LoanEligibilityindicator");
         defaultWsdl11Definition.setLocationUri("/ws");
-        defaultWsdl11Definition.setTargetNamespace("http://www.shurankain.com/soaptest/springsoaptest/loanEligibility");
+        defaultWsdl11Definition.setTargetNamespace("http://www.shurankain.com/spring/soap/ws/server/loaneligibility");
         defaultWsdl11Definition.setSchema(schema);
         return defaultWsdl11Definition;
-
     }
 
     @Bean
