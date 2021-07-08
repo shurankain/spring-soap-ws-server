@@ -1,4 +1,4 @@
-package com.shurankain.soaptest.springsoaptest.config;
+package com.shurankain.spring.soap.ws.server.config;
 
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.ApplicationContext;

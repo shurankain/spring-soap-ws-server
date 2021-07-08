@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-            targetNamespace="http://www.shurankain.com/soaptest/springsoaptest/loanEligibility"
+            targetNamespace="http://www.shurankain.com/spring/soap/ws/server/loanEligibility"
             elementFormDefault="qualified">
 
     <xsd:element name="CustomerRequest">

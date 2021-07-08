@@ -1,4 +1,4 @@
-package com.shurankain.soaptest.springsoaptest.emendpoint;
+package com.shurankain.spring.soap.ws.server.emendpoint;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ws.server.endpoint.annotation.Endpoint;
@@ -6,9 +6,9 @@ import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
 import org.springframework.ws.server.endpoint.annotation.RequestPayload;
 import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 
-import com.shurankain.soaptest.springsoaptest.loaneligibility.Acknowledgement;
-import com.shurankain.soaptest.springsoaptest.loaneligibility.CustomerRequest;
-import com.shurankain.soaptest.springsoaptest.service.LoanEligibilityService;
+import com.shurankain.spring.soap.ws.server.service.LoanEligibilityService;
+import com.shurankain.spring.soap.ws.server.loaneligibility.Acknowledgement;
+import com.shurankain.spring.soap.ws.server.loaneligibility.CustomerRequest;
 
 @Endpoint
 public class LoanEligibilityIndicatorEndpoint {

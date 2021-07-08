@@ -6,7 +6,7 @@
 //
 
 
-package com.shurankain.soaptest.springsoaptest.loaneligibility;
+package com.shurankain.spring.soap.ws.server.loaneligibility;
 
 import java.util.ArrayList;
 import java.util.List;

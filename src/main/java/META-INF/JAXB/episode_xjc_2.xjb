@@ -10,13 +10,13 @@ Generated on: 2021.07.05 at 04:56:38 PM CEST
   -->
   <bindings scd="x-schema::tns" xmlns:tns="http://www.shurankain.com/soaptest/springsoaptest/loanEligibility">
     <schemaBindings map="false">
-      <package name="com.shurankain.soaptest.springsoaptest.loaneligibility"/>
+      <package name="com.shurankain.soaptest.springsoapwsserver.loaneligibility"/>
     </schemaBindings>
     <bindings scd="tns:CustomerRequest">
-      <class ref="com.shurankain.soaptest.springsoaptest.loaneligibility.CustomerRequest"/>
+      <class ref="com.shurankain.spring.soap.ws.server.loaneligibility.CustomerRequest"/>
     </bindings>
     <bindings scd="tns:Acknowledgement">
-      <class ref="com.shurankain.soaptest.springsoaptest.loaneligibility.Acknowledgement"/>
+      <class ref="com.shurankain.spring.soap.ws.server.loaneligibility.Acknowledgement"/>
     </bindings>
   </bindings>
 </bindings>

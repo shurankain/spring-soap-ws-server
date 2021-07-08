@@ -1,11 +1,11 @@
-package com.shurankain.soaptest.springsoaptest.service;
+package com.shurankain.spring.soap.ws.server.service;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.shurankain.soaptest.springsoaptest.loaneligibility.Acknowledgement;
-import com.shurankain.soaptest.springsoaptest.loaneligibility.CustomerRequest;
+import com.shurankain.spring.soap.ws.server.loaneligibility.Acknowledgement;
+import com.shurankain.spring.soap.ws.server.loaneligibility.CustomerRequest;
 
 @Service
 public class LoanEligibilityService {

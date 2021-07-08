@@ -6,4 +6,4 @@
 //
 
 @javax.xml.bind.annotation.XmlSchema(namespace = "http://www.shurankain.com/soaptest/springsoaptest/loanEligibility", elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
-package com.shurankain.soaptest.springsoaptest.loaneligibility;
+package com.shurankain.spring.soap.ws.server.loaneligibility;

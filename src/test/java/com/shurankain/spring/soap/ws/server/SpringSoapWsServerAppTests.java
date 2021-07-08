@@ -1,4 +1,4 @@
-package com.shurankain.soaptest.springsoaptest;
+package com.shurankain.spring.soap.ws.server;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

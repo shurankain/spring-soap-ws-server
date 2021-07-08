@@ -56,7 +56,6 @@
                             <artifactId>lombok</artifactId>
                         </exclude>
                     </excludes>
-                    <mainClass>com.shurankain.soaptest.springsoaptest.SpringSoapWsServerApp</mainClass>
                 </configuration>
             </plugin>
             <plugin>
