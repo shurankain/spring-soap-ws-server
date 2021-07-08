@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringSoapTestApplication {
+public class SpringSoapWsServer {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringSoapTestApplication.class, args);
+        SpringApplication.run(SpringSoapWsServer.class, args);
     }
 
 }
